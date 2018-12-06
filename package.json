@@ -4,7 +4,7 @@
   "license": "MIT",
   "repository": "LinusU/ts-unwrap",
   "scripts": {
-    "test": "standard"
+    "test": "standard && node test"
   },
   "devDependencies": {
     "standard": "^10.0.3"
