@@ -14,3 +14,5 @@ unwrap('test')
 assert.throws(() => unwrap(), /Missing value/)
 assert.throws(() => unwrap(undefined), /Missing value/)
 assert.throws(() => unwrap(null), /Missing value/)
+
+assert.throws(() => unwrap(null, 'Foobar test'), /Foobar test/)
