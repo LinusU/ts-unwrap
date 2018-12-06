@@ -1,2 +1,2 @@
-declare function unwrap<T> (value?: T | null): T
+declare function unwrap<T> (value: T | undefined | null): T
 export = unwrap

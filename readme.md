@@ -19,6 +19,6 @@ const port = unwrap(process.env['PORT'])
 
 ## API
 
-### `unwrap<T>(value?: T | null): T`
+### `unwrap<T>(value: T | undefined | null): T`
 
 Throws an error if the value is `undefined` or `null`, otherwise it returns the value.
