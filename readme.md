@@ -33,3 +33,7 @@ The description of the thrown error will be `'Missing value'` unless another mes
 - [`ts-todo`](https://github.com/LinusU/ts-todo)
 - [`ts-unimplemented`](https://github.com/LinusU/ts-unimplemented)
 - [`ts-unreachable`](https://github.com/LinusU/ts-unreachable)
+
+## Prior Art
+
+- Rust [`unwrap` method](https://doc.rust-lang.org/std/option/enum.Option.html#method.unwrap)
