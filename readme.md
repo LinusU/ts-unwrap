@@ -27,3 +27,9 @@ const port = unwrap(process.env['PORT'], 'Missing PORT from environment')
 Throws an error if the value is `undefined` or `null`, otherwise it returns the value.
 
 The description of the thrown error will be `'Missing value'` unless another message is passed as the `errorMessage` argument.
+
+## Related Packages
+
+- [`ts-todo`](https://github.com/LinusU/ts-todo)
+- [`ts-unimplemented`](https://github.com/LinusU/ts-unimplemented)
+- [`ts-unreachable`](https://github.com/LinusU/ts-unreachable)
