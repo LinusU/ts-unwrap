@@ -11,7 +11,7 @@ npm install --save ts-unwrap
 ## Usage
 
 ```js
-import unwrap = require('ts-unwrap')
+import unwrap from 'ts-unwrap'
 
 // `port` is of type string, and will never be undefined
 const port = unwrap(process.env['PORT'])

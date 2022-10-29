@@ -1,5 +1,5 @@
-const unwrap = require('./')
-const assert = require('assert')
+import unwrap from './index.js'
+import assert from 'node:assert'
 
 unwrap(false)
 unwrap(true)
